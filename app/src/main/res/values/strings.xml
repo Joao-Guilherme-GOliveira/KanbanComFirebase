@@ -1,0 +1,52 @@
+<resources>
+	<string name="app_name">Tasks</string>
+	<string name="app_creator">João Guilherme G. Oliveira</string>
+
+	<string name="content_description_splash_screen_image">SplashScreen Image</string>
+
+	<string name="input_email_label">E-mail</string>
+	<string name="input_email_placeholder">Digite seu e-mail</string>
+	<string name="input_senha_label">Senha</string>
+	<string name="input_senha_placeholder">Digite sua senha</string>
+	<string name="input_login">Login</string>
+	<string name="input_conta_criar">Criar Conta</string>
+	<string name="input_conta_recuperar">Recuperar Conta</string>
+	<string name="info_recoverAccount">Informe seu e-mail de cadastro para receber um link para alteração de senha.</string>
+
+	<string name="status_task_todo">A Fazer</string>
+	<string name="status_task_doing">Fazendo</string>
+	<string name="status_task_done">Feitas</string>
+
+	<string name="form_task_radio_todo">A fazer</string>
+	<string name="form_task_radio_doing">Fazendo</string>
+	<string name="form_task_radio_done">Feito</string>
+	<string name="form_task_description">Descrição</string>
+	<string name="form_task_description_input">Informe sua nova tarefa</string>
+	<string name="form_task_button_save">Salvar</string>
+	<string name="form_task_toolbar">Nova Tarefa</string>
+
+	<string name="bottom_sheet_ok">Entendi</string>
+	<string name="bottom_sheet_message">Mensagem</string>
+	<string name="bottom_sheet_warning">Atenção</string>
+
+	<string name="home_content_description_tabs">Tabs</string>
+	<string name="home_content_description_logout">Logout</string>
+
+	<string name="todo_content_description_add_task">Add Task</string>
+
+	<string name="email_empty">Preencha seu email</string>
+	<string name="password_empty">Preencha a senha</string>
+	<string name="register_email_empty">Preencha seu email</string>
+	<string name="register__password_empty">Preencha a senha</string>
+	<string name="recover_email_empty">Preencha seu email</string>
+	<string name="form_description_empty">Preencha uma descrição</string>
+	<string name="item_task_description">Criar layout da tela de login do app</string>
+	<string name="item_task_remove">Remover</string>
+	<string name="item_task_edit">Editar</string>
+	<string name="item_task_details">Detalhes</string>
+	<string name="text_save_success_form_task_fragment">Tarefa salva com sucesso</string>
+	<string name="error_generic">Ocorreu um erro, tente novamente mais tarde</string>
+
+	<string name="item_task_arrow_back">Anterior</string>
+	<string name="item_task_arrow_go">Próximo</string>
+</resources>

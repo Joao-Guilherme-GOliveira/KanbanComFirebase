@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/bg_bottom_sheet"
+	android:padding="20dp"
+	android:clipChildren="false"
+	android:clipToPadding="false">
+
+	<View
+		android:layout_width="42dp"
+		android:layout_height="1dp"
+		android:layout_gravity="center"
+		android:background="?actionBarDivider"
+	/>
+
+	<TextView
+		android:id="@+id/title"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dp"
+		android:text="@string/bottom_sheet_warning"
+		android:textAlignment="center"
+		android:textColor="@color/black"
+	/>
+
+	<TextView
+		android:id="@+id/text_message"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dp"
+		android:textAlignment="center"
+		android:textColor="@color/primary"
+		android:text="@string/bottom_sheet_message"
+	/>
+
+	<com.google.android.material.button.MaterialButton
+		android:id="@+id/button_ok"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dp"
+		android:text="@string/bottom_sheet_ok"
+		android:textColor="@color/white"
+		android:background="@drawable/bg_btn"
+		app:backgroundTint="@null"
+	/>
+</LinearLayout>

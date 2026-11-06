@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:paddingHorizontal="20dp"
+	android:clipChildren="false"
+	android:clipToPadding="false"
+	tools:context=".ui.FormTaskFragment">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:clipChildren="false"
+		android:clipToPadding="false">
+
+		<com.google.android.material.appbar.MaterialToolbar
+			android:id="@+id/toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:navigationIcon="@drawable/ic_back"
+			app:navigationIconTint="@color/primary"
+			android:paddingTop="40dp"
+			android:paddingStart="-20dp"
+			android:paddingEnd="-20dp">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/form_task_toolbar"
+				android:textColor="@color/primary"
+				android:layout_gravity="center"
+				android:textStyle="bold"/>
+		</com.google.android.material.appbar.MaterialToolbar>
+
+		<TextView
+			android:id="@+id/label_descricao"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/form_task_description"
+			android:textColor="@color/black"/>
+
+		<EditText
+			android:id="@+id/input_descricao"
+			android:layout_width="match_parent"
+			android:layout_height="48dp"
+			style="@style/EditTextTheme"
+			android:hint="@string/form_task_description_input"
+			android:inputType="text"/>
+
+		<RadioGroup
+			android:id="@+id/radio_group"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_marginTop="20dp">
+
+			<RadioButton
+				android:id="@+id/radio_todo"
+				android:layout_width="88dp"
+				android:layout_height="48dp"
+				android:text="@string/form_task_radio_todo"
+				android:textColor="@color/black"
+				android:checked="true"
+				android:theme="@style/RadioButton"/>
+			<RadioButton
+				android:id="@+id/radio_doing"
+				android:layout_width="88dp"
+				android:layout_height="48dp"
+				android:text="@string/form_task_radio_doing"
+				android:textColor="@color/black"
+				android:checked="false"
+				android:theme="@style/RadioButton"/>
+			<RadioButton
+				android:id="@+id/radio_done"
+				android:layout_width="88dp"
+				android:layout_height="48dp"
+				android:text="@string/form_task_radio_done"
+				android:textColor="@color/black"
+				android:checked="false"
+				android:theme="@style/RadioButton"/>
+		</RadioGroup>
+
+		<com.google.android.material.button.MaterialButton
+			android:id="@+id/button_salvar"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			style="@style/ButtonTheme"
+			android:text="@string/form_task_button_save"
+
+			android:layout_marginTop="16dp"/>
+
+		<ProgressBar
+			android:id="@+id/progress_bar"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:visibility="invisible"
+			tools:visibility="visible"
+			android:indeterminateTint="@color/primary"
+			android:layout_gravity="center"
+
+			android:layout_marginTop="16dp"/>
+
+	</LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "800298054450",
+    "firebase_url": "https://taskapp-1f64a-default-rtdb.firebaseio.com",
+    "project_id": "taskapp-1f64a",
+    "storage_bucket": "taskapp-1f64a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800298054450:android:841ef73584242232ff5d2b",
+        "android_client_info": {
+          "package_name": "com.joaog.task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0CsMgXjrCgP1T-fjOy1PI9OtqPdr906A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
